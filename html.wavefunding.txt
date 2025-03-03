@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Funding - Legal Funding for Personal Injury Cases</title>
+    <style>
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background: #f4f4f4; 
+            color: #333; 
+        }
+        .header { 
+            background: linear-gradient(to right, #00B4D8, #90E0EF); 
+            padding: 70px; 
+            text-align: center; 
+            color: white; 
+            font-size: 48px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+        }
+        .header-images {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            transform: translateY(-50%);
+            padding: 0 20px;
+        }
+        .header-images img {
+            width: 100px;
+            height: 100px;
+        }
+        .nav {
+            text-align: center;
+            padding: 15px;
+            background: #0077B6;
+        }
+        .nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?miami,beach,palm-trees') no-repeat center center/cover; 
+            padding: 100px 20px; 
+            text-align: center; 
+            background-blend-mode: overlay;
+            background-color: rgba(0, 0, 0, 0.4);
+            color: white;
+            font-size: 26px;
+            position: relative;
+        }
+        .container { 
+            width: 80%; 
+            margin: auto; 
+            padding: 40px 20px; 
+            text-align: center;
+        }
+        .section { 
+            background: white; 
+            padding: 35px; 
+            border-radius: 12px; 
+            margin-bottom: 35px;
+            box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+        }
+        .footer { 
+            background: #0077B6; 
+            text-align: center; 
+            padding: 18px; 
+            margin-top: 20px; 
+            color: white;
+            font-size: 15px;
+        }
+        .cta-button { 
+            background: #FFB703; 
+            padding: 25px 50px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            display: inline-block; 
+            border-radius: 8px; 
+            color: white; 
+            font-size: 28px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover { background: #FB8500; }
+        h1 { 
+            font-family: 'Pacifico', cursive; 
+            font-size: 70px; 
+            font-weight: 900; 
+            letter-spacing: 3px; 
+            font-style: normal;
+            font-variant: small-caps;
+        }
+        h2 { font-family: 'Poppins', sans-serif; font-size: 48px; font-weight: bold; margin-bottom: 10px; }
+        p.trusted-partner { font-size: 22px; font-weight: bold; } 
+        p.subtext { font-size: 18px; } 
+        button { 
+            background: #D62828; 
+            color: white; 
+            border: none; 
+            padding: 16px 28px; 
+            cursor: pointer; 
+            border-radius: 8px; 
+            font-size: 18px; 
+            transition: background 0.3s;
+        }
+        button:hover { background: #F77F00; }
+        input, textarea {
+            width: 100%; 
+            padding: 12px; 
+            margin: 10px 0; 
+            border-radius: 8px; 
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Montserrat:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="header-images">
+            <img src="/mnt/data/image.png" alt="Logo Left">
+            <img src="/mnt/data/image.png" alt="Logo Right">
+        </div>
+        <h1>Wave Funding</h1>
+        <p class="trusted-partner">Your Trusted Legal Funding Partner</p>
+    </div>
+    <div class="nav">
+        <a href="#services">Services</a>
+        <a href="#cases">Cases We Fund</a>
+        <a href="#apply">Apply</a>
+        <a href="#contact">Contact Us</a>
+    </div>
+    <div class="hero">
+        <h2>Get the money you need now!!</h2>
+        <p class="subtext">Receive financial support while awaiting your settlement with zero risk.</p>
+        <a href="#apply" class="cta-button">Apply Now</a>
+    </div>
+    <div class="container">
+        <div class="section" id="services">
+            <h2>Our Funding Services</h2>
+            <p>We provide fast, hassle-free funding so you can focus on winning your case.</p>
+        </div>
+        <div class="section" id="cases">
+            <h2>Cases We Fund</h2>
+            <ul>
+                <li>Car Accidents</li>
+                <li>Medical Malpractice</li>
+                <li>Slip and Fall Injuries</li>
+                <li>Wrongful Death</li>
+                <li>And More...</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Wave Funding. All Rights Reserved.</p>
+        <p>Contact Us: (555) 123-4567 | Email: info@wavefunding.com</p>
+    </div>
+</body>
+</html>
